@@ -1,0 +1,52 @@
+body{
+    background: url(/templates/mellon.png);
+    color: seashell;
+    padding: 100px;
+    padding-top: 0px;
+    /* background-image: url(https://images.pexels.com/photos/2599271/pexels-photo-2599271.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    background-attachment: fixed;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    /* background-image: url(https://images.pexels.com/photos/1562/italian-landscape-mountains-nature.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    /* background-image: url(https://images.pexels.com/photos/3308588/pexels-photo-3308588.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); */
+    /* background-image: url(https://images.pexels.com/photos/3279307/pexels-photo-3279307.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    text-align: center;
+    
+}
+
+.heading{
+    padding-top: 60px;
+    color: limegreen;
+    font-family: 'Ultra', serif;
+}
+
+.pLines{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: limegreen;
+}
+
+a:link{
+    text-decoration: none;
+    color: limegreen;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#form-kyc{
+    color: seashell;
+
+}
+.kyc-form{
+    color: seashell;
+}
+
+
+

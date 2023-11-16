@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    background: url(/templates/mellon.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 100px;
+    color: aliceblue;
+    overflow: hidden;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 70% 20%;
+    grid-column-gap: 10px;
+}
+
+.mainBod{
+    color: aliceblue;
+    /* padding: 50px; */
+    /* margin-right: 10%; */
+} 
+
+
+ul{
+    list-style-type: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: limegreen;
+}
+
+footer{
+    text-align: center;
+    color: limegreen;
+    /* background-color: rgba(55, 143, 70, 0.608); */
+    /* padding:10px; */
+    /* border-radius:5%; */
+    position: relative;
+    /* top: 300px; */
+} 
+
+
