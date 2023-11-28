@@ -4,7 +4,7 @@
 }
 
 body{
-    background: url(/templates/mellon.png);
+    /* background: url(/templates/mellon.png); */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

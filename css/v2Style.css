@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.father{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cover{
+    background-image: url(/templates/mellon.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding:40px;
+}
