@@ -13,6 +13,13 @@ const ShowcaseSection = () => {
 
   
   useGSAP(() => {
+      
+    gsap.fromTo(
+          sectionRef.current,
+          { opacity: 0 },
+          {opacity: 1, duration: 1.5}
+      );
+
       const projects = [project1Ref.current, project2Ref.current, project3Ref.current];
     
       projects.forEach((card, index) => {
@@ -33,11 +40,6 @@ const ShowcaseSection = () => {
             }
         )
       })
-    gsap.fromTo(
-        sectionRef.current,
-        { opacity: 0 },
-        {opacity: 1, duration: 1.5}
-    )
   }, []);
 
   return (
@@ -45,11 +47,11 @@ const ShowcaseSection = () => {
         <div className="w-full">
             <div className="showcaselayout">
                 {/* LEFT */}
-                <div className="first-priject-wrapper" ref={project1Ref}>
+             <div className="first-priject-wrapper" ref={project1Ref}>
                     <div className="image-wrapper">
                         <img src="/images/project1.png" alt="Ryde"/>
                     </div>
-                </div>
+                
 
                 <div className="text-content">
                     <h2>On-Demand Rides Made Simple with IZAC'S Rasta Ride</h2>
@@ -57,6 +59,7 @@ const ShowcaseSection = () => {
                         An app built by Izac using only his BHOOLA Brain
                     </p>
                 </div>
+             </div>
 
                 {/* RIGHT */}
                 <div className="projectlistwrapper overflow-hidden">
